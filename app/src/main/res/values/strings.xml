@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ACCTroyanskii</string>
+
+    <string name="login_sign_in">Sign in</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_repeat_password">Repeat password</string>
+    <string name="login_sign_up">Sign up</string>
+    <string name="login_go_to_sign_in">Go to sign in</string>
+    <string name="login_go_to_sign_up">Go to sign up</string>
+    <string name="login_signup_successfully">Sign up was successfully</string>
+    <string name="main_interval_in_sec">Interval in sec</string>
+    <string name="main_session">Session in sec</string>
+    <string name="main_pros_delay">Delay to start in sec</string>
+    <string name="main_start">Start</string>
+    <string name="main_stop">Stop</string>
+    <string name="main_intervals">Intervals</string>
+    <string name="main_input_duration">Input duration</string>
+    <string name="main_input_delay">Input delay</string>
+</resources>

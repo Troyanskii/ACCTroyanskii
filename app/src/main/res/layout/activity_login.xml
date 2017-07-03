@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/login_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="@string/login_sign_in"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/login_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/login_email"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/login_password"
+        android:imeOptions="actionNext"
+        android:inputType="textPassword"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/login_repeat_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/login_repeat_password"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:singleLine="true" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/login_signup_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:background="@color/light_yellow"
+            android:gravity="center"
+            android:text="@string/login_sign_up"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/login_signin_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:background="@color/light_green"
+            android:gravity="center"
+            android:text="@string/login_sign_in" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/login_mode_changer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="center" />
+
+</LinearLayout>
